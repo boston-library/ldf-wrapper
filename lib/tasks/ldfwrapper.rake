@@ -14,6 +14,13 @@ namespace :ldfjetty do
     Ldfwrapper.unzip
   end
 
+
+  desc "download and install the jetty zip file"
+  task :install do
+    Ldfwrapper.download
+    Ldfwrapper.unzip
+  end
+
   desc "remove the jetty directory and recreate it"
   task :clean do
     Ldfwrapper.clean

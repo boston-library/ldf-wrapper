@@ -1,5 +1,5 @@
 default:
-  jetty_port: 8986
+  jetty_port: 8985
   java_opts:
     - "-XX:MaxPermSize=2048m"
     - "-Xmx2048m"

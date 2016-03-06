@@ -41,6 +41,22 @@ Or install it yourself as:
 
 ## Usage
 
+Download and install the instance:
+
+    $ rake ldfjetty:install
+
+Whenever you want to start it up, do:
+
+    $ rake ldfjetty:start
+
+Shut it down with:
+
+    $ rake ldfjetty:stop
+
+To reinstall a fresh copy, you can either remove the "ldf-jetty" directory or do "rake jetty:clean" and then rerun:
+
+    $ rake ldfjetty:install
+
 ### Configuration
 
 See [Configuring jettywrapper](https://github.com/projecthydra/jettywrapper/wiki/Configuring-jettywrapper).
