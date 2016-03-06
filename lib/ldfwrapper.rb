@@ -36,7 +36,7 @@ class Ldfwrapper
 
   def configure params
     self.quiet        = params[:quiet].nil? ? true : params[:quiet]
-    self.jetty_home   = params[:jetty_home  ] || File.expand_path(File.join(self.base_path, 'jetty'))
+    self.jetty_home   = params[:jetty_home  ] || File.expand_path(File.join(self.base_path, 'ldf-jetty'))
     self.solr_home    = params[:solr_home   ] || File.join( self.jetty_home, "solr")
     self.port         = params[:jetty_port  ] || 8985
     self.startup_wait = params[:startup_wait] || 5

@@ -1,8 +1,8 @@
 ## These tasks get loaded into the host application when jettywrapper is required
 require 'yaml'
 
-namespace :ldfwrapper do
-  JETTY_DIR = 'jetty'
+namespace :ldfjetty do
+  JETTY_DIR = 'ldf-jetty'
 
   desc "download the jetty zip file"
   task :download do
