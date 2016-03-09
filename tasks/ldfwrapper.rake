@@ -7,7 +7,7 @@ namespace :ldfwrapper do
   
   jetty = {
     :jetty_home => File.expand_path("#{File.dirname(__FILE__)}/../ldf-jetty"),
-    :jetty_port => "8985", :java_opts=>["-Xmx2048mb"]
+    :jetty_port => "8988", :java_opts=>["-Xmx2048mb"]
   }
   
   desc "Return the status of jetty"
